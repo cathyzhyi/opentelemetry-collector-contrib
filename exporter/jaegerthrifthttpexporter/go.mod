@@ -12,3 +12,5 @@ require (
 	go.uber.org/zap v1.16.0
 	google.golang.org/protobuf v1.25.0
 )
+
+replace go.opentelemetry.io/collector => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opentelemetry-collector

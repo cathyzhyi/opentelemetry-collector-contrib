@@ -14,3 +14,5 @@ require (
 	k8s.io/client-go v0.19.4
 	k8s.io/utils v0.0.0-20200821003339-5e75c0163111 // indirect
 )
+
+replace go.opentelemetry.io/collector => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opentelemetry-collector

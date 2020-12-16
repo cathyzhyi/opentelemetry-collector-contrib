@@ -14,3 +14,5 @@ require (
 	gopkg.in/DataDog/dd-trace-go.v1 v1.27.1
 	gopkg.in/zorkian/go-datadog-api.v2 v2.30.0
 )
+
+replace go.opentelemetry.io/collector => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opentelemetry-collector

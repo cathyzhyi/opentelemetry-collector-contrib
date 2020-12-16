@@ -14,3 +14,5 @@ require (
 	google.golang.org/grpc/examples v0.0.0-20200728194956-1c32b02682df // indirect
 	howett.net/plist v0.0.0-20201026045517-117a925f2150 // indirect
 )
+
+replace go.opentelemetry.io/collector => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opentelemetry-collector
