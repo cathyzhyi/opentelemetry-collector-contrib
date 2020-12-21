@@ -20,3 +20,4 @@ require (
 )
 
 replace go.opentelemetry.io/collector => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opentelemetry-collector
+replace	contrib.go.opencensus.io/exporter/stackdriver => /usr/local/google/home/cathyzhyi/work/monitor/opentelemetry-collector-contrib/../opencensus-go-exporter-stackdriver
